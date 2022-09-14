@@ -1,3 +1,53 @@
 
-p {
-font-family: Arial;}
+head {} 
+
+h2 {margin-top: 50px;}
+
+body {
+   font-family: Lucida Bright;
+   font-size: 80%;
+   letter-spacing:  0.1em;
+   background-color: #efefef;
+   width:  600 px;
+   margin:  20px 30px 20px 20px;
+   font-weight:  normal;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+li {margin: 5px;
+}
+
+
+
+a {
+	font-weight: bold;
+}
+
+a:hover, a.on {
+	color:  #cc3333;
+	background-color: #ffffff;
+	};
+
+
+table {}
+th, td {
+	padding:  7px 10px 10px 10px;
+}
+
+
+th {
+	border-bottom:  1.5px solid #111111;
+	border-top:  1px solid #999;
+	letter-spacing: .1 em;
+	font-size: 90%;
+	font-weight:  bold;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+tr.even {
+	background-color: lightgrey;
+}
